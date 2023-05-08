@@ -1,6 +1,6 @@
 module.exports = ({ env }) => ({
     connection: {
-        client: 'mysql',
+        client: 'postgres',
         connection: {
             socketPath: env('INSTANCE_UNIX_SOCKET'),
             database: env('DB_NAME'),
